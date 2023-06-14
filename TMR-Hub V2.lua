@@ -1,5 +1,5 @@
 --< Booting Library >--
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Cerbiale/TMR-Hub/main/TMRHub-Library.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Cerbiale/TMR-Hub/main/TMR-Hub_LibraryV2.lua"))()
 
 local Player = game:GetService('Players').LocalPlayer
 
