@@ -1248,7 +1248,7 @@ AddScriptBoxBtn_1.MouseButton1Click:Connect(function()
 		NEWSCRIPT.BackgroundTransparency = 0.8
 		wait(0.1)
 		NEWSCRIPT.BackgroundTransparency = 1
-		print(AddScriptBox_1.Text)
+		loadstring(tostring(AddScriptBox_1.Text))()
 	end)
 	AddScriptsTab_1.Visible = false
 	ScriptsTab_1.Visible = true
